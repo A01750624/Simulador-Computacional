@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white; /*Color de fondo*/
+  font-family: Arial, Helvetica, sans-serif; /*Tipo de letra segun el navegador*/
+  font-size: 14px; /*Tamaño letra*/
+  color: black; /*Color letra*/
+  width: 100%;
+}
+
+header {
+  overflow: hidden;
+  width: 1000px; /*ancho*/
+  margin: 10px auto 5px auto; /*alto, derecha, inferior y izquierda*/
+}
+
+header #banner {
+  width: 100%;
+  height: 100px;
+}
+
+header #banner figure #imagenbanner {
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  height: 250px;
+  background: url(../Imagenes/ban.png);
+  border-radius: 10px;
+}
+
+header #menu {
+  float: right;
+  padding: 5px 0; /*Vertical y horizontal*/
+  width: 550px;
+}
+
+header #menu ul li {
+  list-style: none;
+  float: left;
+}
+
+header #menu ul li {
+  display: block;
+  margin-left: 5px;
+  padding: 7px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+}
+
+section {
+  width: 100%; /*Ancho*/
+  overflow: hidden;
+  background: rgb(252, 249, 249);
+}
+
+.titulo {
+  background: orangered;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0px 0px 20px 0px;
+}
+
+.contenedor-servicio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-servicio img {
+  width: 40%;
+}
+
+.checklist-servicio {
+  width: 45%;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+.n-service {
+  margin-bottom: 7px;
+  color: #1fc952;
+}
+
+.number {
+  display: inline-block;
+  background-image: linear-gradient(to top, #1fc952 0%, #fbc2eb 100%);
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.Personajes {
+  overflow: hidden;
+  background: rgb(252, 249, 249);
+}
+
+#tituloPer {
+  background: orangered;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+
+.Personajes img {
+  align-items: center;
+  margin: 85px;
+}
+
+footer {
+  background: url(../Imagenes/footerFondo.jpg);
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+footer p {
+  font-size: 16px;
+  color: whitesmoke;
+  line-height: 150%;
+  text-align: center;
+}
+
+footer .logos {
+  text-align: center;
+}
